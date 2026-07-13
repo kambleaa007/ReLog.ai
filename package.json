@@ -4,6 +4,7 @@
   "description": "Lightweight encrypted, compressed, rewritable log system for Node.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": ["dist/"],
   "scripts": {
     "build": "tsc",
     "test": "jest",
@@ -18,7 +19,7 @@
     "rewritable",
     "typescript"
   ],
-  "author": "",
+  "author": "kambleaa007",
   "license": "MIT",
   "dependencies": {
     "latest": "^0.2.0"
