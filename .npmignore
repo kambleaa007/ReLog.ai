@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+
+# Test files
+src/**/*.test.ts
+src/**/*.spec.ts
+jest.config.js
+
+# Examples
+examples/
+
+# Development
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Git
+.git/
+.gitignore
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Logs
+logs/
+test-data/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.jsonl
+*.meta
+
+# Source maps
+*.map
+
+# Environment
+.env
+.env.*
+
+# Build logs
+npm-debug.log
+yarn-error.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation (except main README)
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+.github/
+
+# Config
+tsconfig.json
+jest.config.js
+
+# Development tools
+renovate.json
+.eslintrc*
+
+# Misc
+TODO.md
+SECURITY.md
